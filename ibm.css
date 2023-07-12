@@ -2,9 +2,8 @@ body{
     padding: 0;
     margin: 0;
    /* font-family:"IBM Plex Sans", ibm-plex-sans, "Helvetica Neue", Arial, sans-serif; */
+   
 }
- 
-
 
 .nav1{
     display: flex;
@@ -211,7 +210,10 @@ text-decoration: none;
     padding-top: 10px;
     color: #0f62fe;
     font-family: "IBM Plex Sans", ibm-plex-sans, "Helvetica Neue", Arial, sans-serif;
-    
+    text-decoration: none;
+}
+.dislink a{
+    text-decoration: none;
 }
 
 .threethree{
@@ -432,9 +434,16 @@ li:after{
 .featured{
     margin-top: 18px;
 }
-.explore1{flex: 1;
- 
-  
+.explore1{
+    flex: 1;
+    font-size: 16px;
+ font-family: "IBM Plex Sans", ibm-plex-sans, "Helvetica Neue", Arial, sans-serif
+ ;
+ letter-spacing: normal; 
+ line-height: normal;
+ padding-top: 15px;
+ font-weight: 700;
+ color: #161616;
 }
 .txt{
     padding-top: 105px;
@@ -510,6 +519,9 @@ text-decoration: none;
 }
 .dislik8 a{
     font-size: 15px;
+    text-decoration: none;
+}
+.dislink4 a{
     text-decoration: none;
 }
 .detebox{
