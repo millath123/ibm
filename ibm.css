@@ -2,7 +2,8 @@ body{
     padding: 0;
     margin: 0;
    /* font-family:"IBM Plex Sans", ibm-plex-sans, "Helvetica Neue", Arial, sans-serif; */
-   
+   margin-left: px;
+   overflow-x: hidden;
 }
 
 .nav1{
@@ -21,8 +22,7 @@ body{
 .navitems1{
     flex: 8;
     align-items: center;
-    padding-top: 10px;
-    
+    padding-top: 18px; 
 }
 .navitems1 a{
     margin-left: 30px;
@@ -39,7 +39,7 @@ body{
     flex: 1;
     text-align: center;
     padding-right: 3px;
-    padding-top: 10px;
+    /* padding-top: 20px; */
 }
 .navicons1 a{
     padding-left: 20px;
@@ -81,43 +81,56 @@ img{
     letter-spacing: normal;
 }
 
-.boxes{
-    display: flex;
 
-    padding-bottom: 20px;
+
+.twobox{
+    display: inline-flex;
+    margin-bottom: 20px;
 }
 
-.boxdesign{
-    font-family: ibm-plex-sans, "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: normal;
+.design1{
+    width: 220px;
+    height: 80px;
+}
+.design{
+    width: 220px;
+    height: 80px;
     margin-left: 30px;
-    color: #ffffff;
-    width: 200px;
-    height: 40px;
-    padding-bottom: 4px;
-    background-color: #0062ff;
-    text-align: center;
+}
+.design11{
+    width: 260px;
+    height: 80px;
+    margin-right: 10px;
+}
+.learnicon{
+    margin-left: 100px;
 }
 
-.boxmeet{
-    font-family: ibm-plex-sans, "Helvetica Neue", Arial, sans-serif;
+.designtxt2{
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: normal;
     margin-left: 30px;
     color:  #0062ff;
-    width: 200px;
-    height: 40px;
-    padding-bottom: 4px;
     background-color: #0062ff;
-    text-align: center;
+    
     background: transparent;
-    border: 1px solid blue;
+    border: 1px solid #0062ff;
+    /* margin: 0px 20px 10px 40px; */
+    padding-left: 6px;
 
 }
-
+.designtxt1{
+    /* margin: 0px 30px 0px 30px; */
+    background-color: #0062ff ;
+    color: white;
+    padding-left: 6px;
+    font-family: ibm-plex-sans, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: normal;
+}
 .section-2{
     display: flex;
     width: 100%;
@@ -151,7 +164,30 @@ img{
     margin-left: 30px;
     color:#323232;   
 }
+.arrowcircle{
+   margin: 50px 0px 0px 90px;
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    /* background-color: #0062ff; */
+    z-index: 1;
+    position: absolute;
+    background: #0062ff;
+}
+.fa-solid{
+    margin-top: 23px;
+    padding-left: 25px;
+    width: 30px;
+    height: 30px;
+}
+.arrowcircle:hover{
+background:gray;
+opacity: .5;
+}
+.circle1{
 
+    z-index: -1;
+}
 .containerthree{
     width: 100%;
     display: flex;
@@ -213,6 +249,15 @@ text-decoration: none;
     text-decoration: none;
 }
 .dislink a{
+    text-decoration: none;
+}
+.dislink22{
+    padding-top: 42px;
+    color: #0f62fe;
+    font-family: "IBM Plex Sans", ibm-plex-sans, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+}
+.dislink22 a{
     text-decoration: none;
 }
 
@@ -606,5 +651,10 @@ text-decoration: none;
 .hrlist ul li{
 list-style-type: none;
 
+}
+.tt{
+    position: absolute;
+    top: 1;
+    z-index: 3;
 }
   
